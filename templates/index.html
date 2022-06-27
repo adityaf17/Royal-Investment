@@ -1,0 +1,111 @@
+{% extends "home.html" %}
+{% block body %}
+
+    <header class="masthead" style="background-image: url('{{ url_for('static', filename='img/page-bg.jpeg') }}')">
+        <div class="overlay"></div>
+        <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="site-heading">
+                <h1>{{params['blog_name']}}</h1>
+                <span class="subheading">{{params['tag_line']}}</span>
+            </div>
+            </div>
+        </div>
+        </div>
+    </header>
+
+       
+
+    <section class="site-testimonial" id="values">
+        <div class="container">
+          <div class="row">
+            
+            <div class="col-md-6 p-2">
+              <div class="card h-100 p-2">
+                <div class="card-body">
+                    <h5 class="card-title">Vision</h5>
+                    <p>
+                      Einstein said, &ldquo;Compounding is the eighth wonder of the world.&rdquo; Our vision is to grow the assets under management at an above average compounded rate.
+                    </p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-6 p-2">
+              <div class="card h-100 p-2">
+                <div class="card-body">
+                    <h5 class="card-title">Objective</h5>
+                    <p>
+                      Our objective is to build long term wealth and spread financial awareness.
+                    </p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-6 p-2">
+              <div class="card h-100 p-2">
+                <div class="card-body">
+                    <h5 class="card-title">Mission</h5>
+                    <p>
+                      It is said that 80 percent of a person&rsquo;s worry centers around finances. Our mission is to reach out to people and assist them in their financial affairs and make them financially secure and independent.
+                    </p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-6 p-2">
+              <div class="card h-100 p-2">
+                <div class="card-body">
+                    <h5 class="card-title">What We Do?</h5>
+                    <p>
+                      <ul>
+    <li>Courses</li>
+    <li>Mentorship Program</li>
+    <li>Workshops and Webinars</li>
+    <li>Create Educational Content on Social Media.</li>
+    <li>Algo Trading</li>
+    </ul>
+    
+                    </p>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+
+      <hr>
+
+      <section class="site-cta" '>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 mx-auto text-justify">
+              <h1 class="site-cta-title text-center">Why Us?</h1>
+              <p>We at Optionables trade using sophisticated models and have years of
+    experience in trading. Our traders have knowledge and experience which are
+    valuable in proprietary trading. We also offer training opportunities to
+    budding traders who wish to learn more about the market and the strategies.</p>
+    <p>Our trainers are not mere teachers, but have a storehouse of knowledge and
+    experience in day to day trading. They are traders in the morning and
+    teachers in the evening.</p>
+    <p>Our team is into Algo based account management securities and we aim to
+    integrate and utilize the best of technology and skills of trading to the
+    fullest.</p>
+    <p>We are aiming to build a community of traders and stock market enthusiasts.
+    Do join us and discuss your trade stories and experiences and grow together
+    with us.</p>
+    <p>We also provide algo based trading services in clients' accounts, using
+    sophisticated trading models.</p>
+    
+            </div>
+          </div>
+        </div>
+      </section>
+      <br>
+
+    
+
+{% endblock %}
